@@ -13,6 +13,8 @@
       "minimum": "11",
       "verified": "11"
     },
-    "systems": ["openlegend"]
+    "systems": ["openlegend"],
+    "manifest": "https://github.com/Redunca/wealthlevelshop/blob/develop/module.json",
+    "download": "https://github.com/Redunca/wealthlevelshop/archive/refs/heads/develop.zip"
   }
   
