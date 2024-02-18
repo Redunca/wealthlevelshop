@@ -1,25 +1,39 @@
 {
-  "id": "wealth-level-shop",
-  "title": "Wealth Level Shop - An alternative way to manage wealth, inventory and merchants",
-  "version": "0.0.1",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "openlegend",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Clé Aux Fées",
-      "flags": {}
-    }
-  ],
-  "url": "https://github.com/Redunca/wealthlevelshop"
+	"id": "wealth-level-shop",
+	"title": "Wealth Level Shop - An alternative way to manage wealth, inventory and merchants",
+	"version": "0.0.1",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "openlegend",
+				"type": "system",
+				"compatibility": {}
+			}
+		]
+	},
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "fr",
+			"name": "Français",
+			"path": "lang/fr.json"
+		}
+	],
+	"styles": ["styles/wealth-level-shop.css"],
+	"esmodules": ["scripts/open-inventory.js"],
+	"authors": [
+		{
+			"name": "Clé Aux Fées",
+			"flags": {}
+		}
+	],
+	"url": "https://github.com/Redunca/wealthlevelshop"
 }
