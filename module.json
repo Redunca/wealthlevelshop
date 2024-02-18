@@ -28,7 +28,7 @@
 		}
 	],
 	"styles": ["styles/wealth-level-shop.css"],
-	"esmodules": ["scripts/open-inventory.js"],
+	"esmodules": ["scripts/wealth-level-shop.js", "scripts/hooks.js"],
 	"authors": [
 		{
 			"name": "Clé Aux Fées",

@@ -1,1 +1,1 @@
-#This folder contains localization data 
+# This folder contains localization data
