@@ -1,20 +1,25 @@
 {
-    "id": "wealth-level-shop",
-    "name": "wealth-level-shop",
-    "title": "Wealth Level Shop - An alternative way to manage wealth, inventory and merchants",
-    "description": "A module allowing players to have an inventory manager by their approximate wealth instead of tracking every copper piece. Basesd on Open Legnd.",
-    "authors": [
+  "id": "wealth-level-shop",
+  "title": "Wealth Level Shop - An alternative way to manage wealth, inventory and merchants",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
       {
-        "name": "Clé Aux Fées"
+        "id": "openlegend",
+        "type": "system",
+        "compatibility": {}
       }
-    ],
-    "version": "0.0.1",
-    "compatibility": {
-      "minimum": "11",
-      "verified": "11"
-    },
-    "systems": ["openlegend"],
-    "manifest": "https://github.com/Redunca/wealthlevelshop/blob/develop/module.json",
-    "download": "https://github.com/Redunca/wealthlevelshop/archive/refs/heads/develop.zip"
-  }
-  
+    ]
+  },
+  "authors": [
+    {
+      "name": "Clé Aux Fées",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Redunca/wealthlevelshop"
+}
