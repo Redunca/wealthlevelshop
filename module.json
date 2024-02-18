@@ -1,0 +1,17 @@
+{
+    "id": "wealth-level-shop",
+    "title": "Wealth Level Shop - An alternative way to manage wealth, inventory and merchants",
+    "description": "A module allowing players to have an inventory manager by their approximate wealth instead of tracking every copper piece. Basesd on Open Legnd.",
+    "authors": [
+      {
+      "name": "Clé Aux Fées"
+      }
+    ],
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+    "systems": ["openlegend"]
+  }
+  
